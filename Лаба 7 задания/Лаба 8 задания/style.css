@@ -1,0 +1,157 @@
+/*
+Theme Name: КОТИКИ
+Theme URI: http://example.com/mytheme
+Author: Вячеслав Кульша
+Author URI: http://example.com
+Description: Описание вашей темы.
+Version: 1.0
+*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffecd2;
+  }
+
+  .logo {
+    display: flex; 
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .logo span {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  button{
+    margin: 0 5px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #ffa07a;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  
+  .slider {
+  position: relative;
+  width: 80%; 
+  max-width: 400px;
+  height: 400px;
+  margin: 20px auto; /* Выравнивание секции по центру */
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 300%;
+  }
+  
+  .slide {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .slider-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  
+  .left-arrow {
+    left: 10px;
+  }
+  
+  .right-arrow {
+    right: 10px;
+  }
+  
+  
+  .info-section {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Центрирует содержимое по горизонтали */
+    flex-wrap: wrap; /* Позволяет тексту и картинке располагаться компактно на меньших экранах */
+    padding: 40px;
+    max-width: 800px; /* Устанавливаем ограничение ширины секции */
+    margin: 0 auto; /* Выравниваем секцию по центру страницы */
+    background-color: #ffecd2;
+  }
+  
+  .info-section img {
+    max-width: 60%; /* Увеличиваем размер изображения */
+    height: auto;
+    margin-right: 20px; /* Отступ между изображением и текстом */
+    border-radius: 10px; /* Закругляем углы для эстетики */
+  }
+  
+  .info-text {
+    max-width: 35%; /* Уменьшаем ширину блока текста */
+    padding: 10px;
+  }
+  
+  .info-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .info-text p {
+    font-size: 16px;
+    line-height: 1.5; /* Добавляем межстрочный интервал для читаемости */
+    margin-bottom: 20px;
+    word-break: break-word; /* Перенос слов, если они слишком длинные */
+  }
+  
+  .gallery {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .gallery-item {
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  .gallery-item img {
+    width: 150px;
+    height: 130px;
+    border-radius: 10px;
+  }
+  
+  .footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .footer-icons i {
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  
